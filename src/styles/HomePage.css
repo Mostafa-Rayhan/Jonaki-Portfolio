@@ -1,0 +1,30 @@
+/* Hero Section */
+
+.sectionGap{
+    margin-top: 100px;
+}
+
+.header1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    font-family: 'Poppins', sans-serif;
+}
+.typing {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 68px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.typingSpan{
+    color:rgb(133, 76, 230);;
+}
+
+.peragraph {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    font-family: 'Poppins', sans-serif;
+    /* color: rgba(242, 243, 244, 0.584); */
+}
