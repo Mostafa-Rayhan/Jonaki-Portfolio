@@ -16,3 +16,42 @@ export const Bio = {
     insta: "https://www.instagram.com/mostafarayhan7404/",
     facebook: "https://www.facebook.com/profile.php?id=100008482801410",
 };
+
+export const Experts = [
+    {
+        id: "1",
+        img: "https://i.ibb.co/CtWbLgZ/658440-facebook-marketing-seo-seo-package-service-plan-icon.png",
+        title: "Search Engine Optimization (SEO)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "2",
+        img: "https://i.ibb.co/9WqkZ5V/8333837-digital-marketing-promotion-advertising-icon.png",
+        title: "Social Media Marketing (SMM)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "3",
+        img: "https://i.ibb.co/KVxRDBN/4903911-and-glass-loupe-magnifying-seo-icon.png",
+        title: "Search Engine Marketing (SEM)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "4",
+        img: "https://i.ibb.co/nDkC74Y/2553051-blog-page-seo-social-web-icon.png",
+        title: "Web Development (WordPress)​",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "5",
+        img: "https://i.ibb.co/kxc9YHp/7028047-business-send-mail-communication-marketing-icon.png",
+        title: "Email Marketing",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "6",
+        img: "https://i.ibb.co/qgcF1K4/2528021-content-copywriting-editing-optimization-paper-icon.png",
+        title: "Content Writing",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    }
+];

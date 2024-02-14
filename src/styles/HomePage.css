@@ -18,7 +18,7 @@
 }
 
 .typingSpan{
-    color:rgb(133, 76, 230);;
+    color:rgb(133, 76, 230);
 }
 
 .peragraph {
@@ -27,4 +27,11 @@
     margin-bottom: 42px;
     font-family: 'Poppins', sans-serif;
     /* color: rgba(242, 243, 244, 0.584); */
+}
+
+/* Expertise Section */
+
+.card-hover:hover {
+    background-color: rgb(133, 76, 230); 
+    transition: background-color 0.3s ease;
 }
