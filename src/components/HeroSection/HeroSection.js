@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import Button from 'react-bootstrap/Button';
 import '../../styles/HomePage.css'
 import Image from 'react-bootstrap/Image';
+import svgImg from '../../Image/1166086_ORSJP41.svg'
 
 const HeroSection = () => {
 
@@ -31,8 +32,9 @@ const HeroSection = () => {
                     <Button variant="primary" size="lg" className=''>Check Resume</Button>
                 </div>
                 
-                <div className='col-sm-12 col-md-6 text-center'>
-                    <Image src="https://i.ibb.co/sjpHqBz/jonaki-khanam.png" className='' />
+                <div className='col-sm-12 col-md-6 text-center position-relative'>
+                    <Image src={svgImg} alt="SVG Image" className='' />
+                    <Image src="https://i.ibb.co/sjpHqBz/jonaki-khanam.png" className='position-absolute top-50 start-50 translate-middle' />
                 </div>
             </div>
         </div>
