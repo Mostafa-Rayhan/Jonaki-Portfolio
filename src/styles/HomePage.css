@@ -2,6 +2,7 @@
 
 .sectionGap{
     margin-top: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .header1 {
@@ -34,4 +35,12 @@
 .card-hover:hover {
     background-color: rgb(133, 76, 230); 
     transition: background-color 0.3s ease;
+}
+
+
+.image:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    color: #fff;
+    /* background: #222425; */
 }

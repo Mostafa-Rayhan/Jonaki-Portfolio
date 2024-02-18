@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 
 const Expertise = () => {
   return (
-    <div className='sectionGap bg-light'>
+    <div className='sectionGap bg-light pb-5'>
         <Container>
             <div className='text-center pt-5'>
                 <h1 className='header1'>Digital Marketing Expertise</h1>

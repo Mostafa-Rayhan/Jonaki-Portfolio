@@ -1,14 +1,14 @@
 import React from 'react'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import Expertise from '../../components/Expertise/Expertise'
-import Footer from '../../components/Footer/Footer'
+import Project from '../../components/Project/Project'
 
 const Home = () => {
   return (
       <div>
         <HeroSection />
         <Expertise />
-        <Footer />
+        <Project />     
       </div>   
   )
 }

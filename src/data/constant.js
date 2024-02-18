@@ -55,3 +55,42 @@ export const Experts = [
         desc: "Digital marketing is the component of marketing that uses the Internet and online.",
     }
 ];
+
+export const Projects = [
+    {
+        id: "1",
+        img: "https://i.ibb.co/FYcgHjY/Best-Video-Network.jpg",
+        title: "Search Engine Optimization (SEO)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "2",
+        img: "https://i.ibb.co/9v5Wz8M/Basic-Education.jpg",
+        title: "Social Media Marketing (SMM)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "3",
+        img: "https://i.ibb.co/jvSpGZQ/Mirchi-Movies.jpg",
+        title: "Search Engine Marketing (SEM)",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "4",
+        img: "https://i.ibb.co/ZJPBfSf/Screenshot-2024-02-08-020548.jpg",
+        title: "Web Development (WordPress)​",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "5",
+        img: "https://i.ibb.co/kxc9YHp/7028047-business-send-mail-communication-marketing-icon.png",
+        title: "Email Marketing",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    },
+    {
+        id: "6",
+        img: "https://i.ibb.co/qgcF1K4/2528021-content-copywriting-editing-optimization-paper-icon.png",
+        title: "Content Writing",
+        desc: "Digital marketing is the component of marketing that uses the Internet and online.",
+    }
+];

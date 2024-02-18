@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import "./App.css";
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         {/* </Switch> */}
+        <Footer />
       </Router>
     </>
   );
