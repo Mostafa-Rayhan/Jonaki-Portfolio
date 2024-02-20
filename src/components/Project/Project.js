@@ -22,12 +22,14 @@ const Project = () => {
                         <Col key={project.id}>
                             <Card className='image border-0 shadow h-100'>
                                 {/* <Card.Body className='card-hover'> */}
-                                    <div className=''>
+                                    <div className='rounded-3 p-2'>
                                         <Image
-                                            src={project?.img}                                            
+                                            src={project?.img}                                           
                                             height={300}
-                                            width={490} 
-                                            className='rounded-3'
+                                            // width={180}
+                                            rounded
+                                            fluid 
+                                            className=''
                                         />
                                     </div>
                                     {/* <Card.Title>

@@ -44,3 +44,19 @@
     color: #fff;
     /* background: #222425; */
 }
+
+/* FAQ */
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    /* line-height: 68px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.desc {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    font-family: 'Poppins', sans-serif;
+}
