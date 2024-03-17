@@ -54,4 +54,20 @@
   .link:hover {
     background-color: #e9c46a;
   }
+
+
+
+  .h5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 116.5%;
+    color: #252525;
+  }
   
+
+  .sectionGap{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
