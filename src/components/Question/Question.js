@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
 import { Questions } from '../../data/constant';
+import '../../styles/HomePage.css'
 
 const Question = () => {
   return (
@@ -20,7 +21,7 @@ const Question = () => {
                 flush
                 >
                 <Accordion.Item eventKey={question.id}>
-                    <Accordion.Header className='fs-2 fw-bold'>
+                    <Accordion.Header className='title fs-2 fw-bold'>
                         {question.title}
                     </Accordion.Header>
                     <Accordion.Body className=''>
