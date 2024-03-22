@@ -1,7 +1,12 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image';
 import "../../styles/ContactPage.css"
-import "../../Image/icon/whatsapp.png"
+import location from "../../Image/icon/location.png"
+import email from "../../Image/icon/email.png"
+import phone from "../../Image/icon/phone.png"
+import fb from "../../Image/icon/facebook.png"
+import linkedin from "../../Image/icon/linkedin.png"
+import whatsapp from "../../Image/icon/whatsapp.png"
 
 const Contact = () => {
   return (
@@ -21,8 +26,8 @@ const Contact = () => {
               <div className="iconPadding">
                 <span>
                   <Image
-                    src="/Image/icon/location.png"
-                    alt=""
+                    src={location}
+                    alt="location"
                     height="50"
                     width="50"
                   />
@@ -32,15 +37,15 @@ const Contact = () => {
                 <b>
                   <p>Address</p>
                 </b>
-                <p>V-19 Noorjahan Road, Mohammadpur, Dhaka-1207</p>
+                <p>House-41/2, Level-06, Road-G.P, Block-JA, (Near BRAC University) Warlessgate, Mohakhali, Dhaka-1212</p>
               </div>
             </div>
             <div className={`d-flex gap-3 textWrapper`}>
               <div className="iconPadding">
                 <span>
                   <Image
-                    src="/Image/icon/email.png"
-                    alt=""
+                    src={email}
+                    alt="email"
                     height="50"
                     width="50"
                   />
@@ -50,15 +55,15 @@ const Contact = () => {
                 <b>
                   <p>Email</p>
                 </b>
-                <p>basiceducation360@gmail.com</p>
+                <p>jk@jonakikhanam.com</p>
               </div>
             </div>
             <div className={`d-flex gap-3`}>
               <div className="iconPadding">
                 <span>
                   <Image
-                    src="/Image/icon/phone.png"
-                    alt=""
+                    src={phone}
+                    alt="phone"
                     height="50"
                     width="50"
                   />
@@ -69,7 +74,7 @@ const Contact = () => {
                   <p>Phone Number</p>
                 </b>
                 <div>
-                  <p>+88015 6830 8586</p>
+                  <p>+88 01763638251</p>
                 </div>
               </div>
             </div>
@@ -81,26 +86,26 @@ const Contact = () => {
               </b>
 
               <div className={`d-flex gap-3 align-items-center`}>
-                <a href="https://www.facebook.com/basiceducation0to100">
+                <a href="">
                   <Image
                     className="link"
-                    src="/Image/icon/facebook.png"
-                    alt=""
+                    src={fb}
+                    alt="fb"
                     width="50"
                     height="50"
                   />
                 </a>
-                <a href="https://www.facebook.com/basiceducation0to100">
+                <a href="">
                   <Image
-                    src="/Image/icon/linkedin.png"
-                    alt=""
+                    src={linkedin}
+                    alt="linkedin"
                     width="50"
                     height="50"
                   />
                 </a>
-                <a href="https://www.facebook.com/basiceducation0to100">
+                <a href="">
                   <Image
-                    src="../../Image/icon/whatsapp.png"
+                    src={whatsapp}
                     alt="img"
                     width="50"
                     height="50"

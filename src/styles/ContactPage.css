@@ -39,14 +39,14 @@
     font-weight: normal;
   }
   .button {
-    background: #e9c46a;
+    background: #6f75e8;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 132.69%;
     justify-content: end;
-    color: #252525;
+    color: #f5eded;
     border-radius: 6px;
     border: none;
     padding: 15px;
@@ -61,7 +61,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 116.5%;
     color: #252525;
   }
