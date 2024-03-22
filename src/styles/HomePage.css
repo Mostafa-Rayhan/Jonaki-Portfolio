@@ -1,3 +1,19 @@
+/* Navbar */
+.navSize{
+    height: 90px;
+}
+
+.navBrand{
+    height: 60px;
+    width: 60px;
+}
+
+.navItem{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Hero Section */
 
 .sectionGap{

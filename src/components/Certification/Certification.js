@@ -12,7 +12,7 @@ const Certification = () => {
     <div className='sectionGap pb-5'>
         {/* <Container> */}
             <div className='text-center'>
-                <h1 className='header1'>Certifications</h1>
+                <h1 className='header1'>Certifications And Achivement</h1>
                 <p className='peragraph'>I have worked on a wide range of projects. Here are some of my projects.</p>
             </div>
 

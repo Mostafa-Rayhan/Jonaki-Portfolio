@@ -4,6 +4,7 @@ import Home from "./pages/Home/HomePage";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/ContactPage";
+import Gallery from "./pages/Gallery/GalleryPage";
 import "./App.css";
 import Footer from './components/Footer/Footer'
 
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/about" element={<About />} />
-          {/* <Route exact path="/blog" element={Blog} /> */}
+          <Route exact path="/gallery" element={<Gallery />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         {/* </Switch> */}
