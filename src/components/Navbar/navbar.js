@@ -6,7 +6,7 @@ import logo from "../../Image/Jonaki-Khanam-Logo-150x150.png"
 
 const navbar = () => {
   return (
-    <Navbar expand="lg" bg="light" data-bs-theme="light" className="navSize">
+    <Navbar expand="lg" bg="light" data-bs-theme="light" sticky="top" className="navSize">
       <Container>
         <Navbar.Brand href="home" >
           <img src={logo} alt="Logo" className="navBrand" />

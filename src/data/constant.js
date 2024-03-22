@@ -161,3 +161,37 @@ export const Certifications = [
         title: "Content Writing",
     }
 ];
+
+
+export const Gallerys = [
+    {
+        id: "1",
+        img: "https://i.ibb.co/FYcgHjY/Best-Video-Network.jpg",
+        title: "Search Engine Optimization (SEO)",
+    },
+    {
+        id: "2",
+        img: "https://i.ibb.co/9v5Wz8M/Basic-Education.jpg",
+        title: "Social Media Marketing (SMM)",
+    },
+    {
+        id: "3",
+        img: "https://i.ibb.co/jvSpGZQ/Mirchi-Movies.jpg",
+        title: "Search Engine Marketing (SEM)",
+    },
+    {
+        id: "4",
+        img: "https://i.ibb.co/ZJPBfSf/Screenshot-2024-02-08-020548.jpg",
+        title: "Web Development (WordPress)​",
+    },
+    {
+        id: "5",
+        img: "https://i.ibb.co/jvSpGZQ/Mirchi-Movies.jpg",
+        title: "Email Marketing",
+    },
+    {
+        id: "6",
+        img: "https://i.ibb.co/jvSpGZQ/Mirchi-Movies.jpg",
+        title: "Content Writing",
+    }
+];
