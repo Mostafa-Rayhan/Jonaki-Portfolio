@@ -86,7 +86,7 @@ const Contact = () => {
               </b>
 
               <div className={`d-flex gap-3 align-items-center`}>
-                <a href="">
+                <a href="https://www.facebook.com/khanamjonaki">
                   <Image
                     className="link"
                     src={fb}
@@ -95,7 +95,7 @@ const Contact = () => {
                     height="50"
                   />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jonakikhanam/">
                   <Image
                     src={linkedin}
                     alt="linkedin"
@@ -103,7 +103,7 @@ const Contact = () => {
                     height="50"
                   />
                 </a>
-                <a href="">
+                <a href="https://wa.link/ezjoy9">
                   <Image
                     src={whatsapp}
                     alt="img"
