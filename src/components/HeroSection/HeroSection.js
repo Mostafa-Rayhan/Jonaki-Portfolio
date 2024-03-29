@@ -4,14 +4,14 @@ import Typewriter from 'typewriter-effect';
 import Button from 'react-bootstrap/Button';
 import '../../styles/HomePage.css'
 import Image from 'react-bootstrap/Image';
-import svgImg from '../../Image/1166086_ORSJP41.svg'
+// import svgImg from '../../Image/1166086_ORSJP41.svg'
 
 const HeroSection = () => {
 
     
   return (
-    <div className='bg-white'>
-        <div className='container sectionGap'>
+    <div className='heroBg'>
+        <div className='container sectionPad'>
             <div className='row'>
                 <div className='col-sm-12 col-md-6'>
                     <h6 className='header1 fw-bold'>Hi, I am <br /> {Bio.name}</h6>
@@ -29,12 +29,12 @@ const HeroSection = () => {
                         
                     </div>
                     <p className='peragraph'>{Bio.description}</p>
-                    <Button variant="primary" size="lg" className=''>Check Resume</Button>
+                    <Button variant="primary" size="lg">Check Resume</Button>
                 </div>
                 
                 <div className='col-sm-12 col-md-6 text-center position-relative'>
-                    <Image src={svgImg} alt="SVG Image" className='' />
-                    <Image src="https://i.ibb.co/sjpHqBz/jonaki-khanam.png" className='position-absolute top-50 start-50 translate-middle' />
+                    {/* <Image src={svgImg} alt="SVG Image" className='' /> */}
+                    <Image src="https://i.ibb.co/sjpHqBz/jonaki-khanam.png" className='position-absolute top-50 start-50 translate-middle border1 border-primary bg-primary' roundedCircle />
                 </div>
             </div>
         </div>

@@ -16,8 +16,21 @@
 
 /* Hero Section */
 
+.heroBg {
+    background-image: url('https://i.ibb.co/4NxGzQ8/cool-background-hero.png');
+    background-size: cover;
+    /* background-position: center; */
+    height: 80vh; 
+
+  }
+
 .sectionGap{
     margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.sectionPad{
+    padding-top: 150px;
     /* margin-bottom: 100px; */
 }
 

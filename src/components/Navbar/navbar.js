@@ -4,6 +4,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from "react-router-dom";
 import '../../styles/HomePage.css'
 import logo from "../../Image/Jonaki-Khanam-Logo-150x150.png"
+import Button from 'react-bootstrap/Button';
 
 const navbar = () => {
   return (
@@ -51,8 +52,9 @@ const navbar = () => {
             </Nav.Link>
             <Nav.Link as={NavLink} to="/gallery">
               Gallery
-            </Nav.Link>
+            </Nav.Link>  
           </Nav>
+          <Button variant="primary" size="lg" className="me-auto">Get a Quote</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
