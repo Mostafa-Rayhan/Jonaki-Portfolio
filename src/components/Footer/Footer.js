@@ -11,7 +11,7 @@ const Footer = () => {
     <div>
         <MDBFooter className='bg-light text-center text-white'>
             <MDBContainer className='p-4 pb-0'>
-                <section className='mb-4'>
+                {/* <section className='mb-4'>
                 <MDBBtn
                     floating
                     className='m-1'
@@ -70,13 +70,13 @@ const Footer = () => {
                 >
                     <MDBIcon fab icon='github' />
                 </MDBBtn>
-                </section>
+                </section> */}
             </MDBContainer>
 
             <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                 © 2024 Copyright:
-                <a className='text-white' href='https://mdbootstrap.com/'>
-                MDBootstrap.com
+                <a className='text-white' href='https://upturnidea.com/'>
+                upturnidea.com
                 </a>
             </div>
         </MDBFooter>
