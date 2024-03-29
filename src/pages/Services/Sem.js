@@ -1,8 +1,15 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Sem = () => {
   return (
-    <div>Sem</div>
+    <div>
+      <Container>
+        <div className='text-center pt-5'>
+          <h1 className='header1'>Search Engine Marketing (SEM)</h1>
+        </div>
+      </Container>
+    </div>
   )
 }
 

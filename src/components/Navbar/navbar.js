@@ -10,7 +10,7 @@ const navbar = () => {
   return (
     <Navbar expand="lg" bg="light" data-bs-theme="light" sticky="top" className="navSize">
       <Container>
-        <Navbar.Brand href="home" >
+        <Navbar.Brand as={NavLink} to="/" >
           <img src={logo} alt="Logo" className="navBrand" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
