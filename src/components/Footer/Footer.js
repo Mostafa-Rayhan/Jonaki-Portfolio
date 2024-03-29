@@ -2,8 +2,8 @@ import React from 'react'
 import {
     MDBFooter,
     MDBContainer,
-    MDBIcon,
-    MDBBtn
+    // MDBIcon,
+    // MDBBtn
   } from 'mdb-react-ui-kit';
 
 const Footer = () => {
